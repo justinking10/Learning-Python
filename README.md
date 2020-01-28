@@ -1,2 +1,2 @@
 # Learning-Python
-Different things I'm trying based on some entry level YouTube tutorials
+Different things I'm trying as I learn Python
