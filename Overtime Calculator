@@ -1,14 +1,14 @@
-hours_flat = input('How many hours did you work on flat rate details? ')
+hours_flat = input('How many hours did you work on flat rate details?\n')
 
-hours_special = input('How many hours did you work on special rate details? ')
+hours_special = input('How many hours did you work on special rate details?\n')
 
-hours_city = input('How many hours did you work on city overtime? ')
+hours_city = input('How many hours did you work on city overtime?\n')
 
 # Current Flat Rate detail pay is $25/hour
 pay_flat = int(hours_flat) * 28
 # Current Special Rate detail pay is $35/hour
 pay_special = int(hours_special) * 35
-# Current City Overtime is $36.02/hour (time and a half)
+# Current City Overtime is $36/hour (time and a half)
 pay_city = int(hours_city) * 36
 
 OT = pay_flat + pay_special + pay_city
